@@ -120,8 +120,12 @@ button {
   position: absolute;
   top: 80vh;
   padding: 8px 12px;
-  border-radius: 4px;
+  border-radius: 6px;
   filter: drop-shadow(2px 2px 4px rgba(163, 163, 163, 0.6));
+}
+
+.fa-plus-circle {
+  margin: 5px;
 }
 
 /* ... HEADER ... */
