@@ -131,14 +131,6 @@ button {
 /* ... HEADER ... */
 
 /* ... DASHBOARD HEADER ... */
-/*.dashboard-container {
-  height: 96vh;
-  width: 96vw;
-  background-color: violet;
-  position: absolute;
-  top: 2vh;
-  left: 2vw;
-}*/
 
 .dashboard-container {
   display: inline;
@@ -149,6 +141,7 @@ button {
   flex-direction: row;
   justify-content: space-between;
   align-items: unset;
+  margin: 10px;
 }
 
 .nav-btn {
@@ -174,7 +167,7 @@ button {
   padding: 15px 10px;
   position: absolute;
   left: 2vw;
-  top: 10vh;
+  top: 12vh;
   margin-top: 10px;
   background-color: var(--clr-background2);
   border-radius: 6px;
@@ -250,11 +243,42 @@ button {
 
 .password-edit-btn,
 .password-delete-btn {
-  margin-right: 10px;
+  margin-right: 14px;
   font-size: 1.2rem;
   color: var(--clr-dark);
 }
 
-/*------- DESKTOP STYLES -------*/
+/*FOOTER*/
 
-/*FOOTER*/ ;
+/*------- DESKTOP STYLES -------*/
+@media (min-width: 600px) {
+  .nav-btn {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    width: 25vw;
+  }
+  .passwords {
+    width: 66vw;
+    position: absolute;
+    top: 34vh;
+    left: 30vw;
+  }
+  .passwords-section {
+    width: 75vw;
+  }
+
+  .password-categories-title,
+  .passwords-container-title {
+    position: absolute;
+    left: 30vw;
+  } 
+
+  .passwords-categories {
+    width: 66vw;
+    display: flex;
+    position: absolute;
+    left: 30vw;
+    top: 12vh;
+}

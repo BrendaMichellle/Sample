@@ -14,3 +14,4 @@ navBtn.addEventListener('click', function() {
 closeNavBtn.addEventListener('click', function() {
   navbar.classList.add('hide');
 })
+
